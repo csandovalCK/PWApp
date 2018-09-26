@@ -1,0 +1,55 @@
+{
+  "configVersion": 1,
+  "index": "/PWApp/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/PWApp/favicon.ico",
+        "/PWApp/index.html"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/PWApp/assets/cat-128.png",
+        "/PWApp/assets/cat-152.png",
+        "/PWApp/assets/cat-256.png",
+        "/PWApp/assets/cat-512.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/PWApp/assets/cat-128.png": "428cd93ca9eb20e639cab61d9b845f97112d62b6",
+    "/PWApp/assets/cat-152.png": "039075e8c4c40488285246a44358860f179348e6",
+    "/PWApp/assets/cat-256.png": "bd88d021fd5dd9860b7307d7c6fcd13d7af5c508",
+    "/PWApp/assets/cat-512.png": "8e2534f22a0a58d1cb622edebc10f6bf22706839",
+    "/PWApp/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/PWApp/index.html": "d55929df9eda0c91f7a79725e30fd2b8707640e3"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
